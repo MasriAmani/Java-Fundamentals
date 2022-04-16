@@ -12,10 +12,30 @@ public class Exercise_04 {
 
     public static void main(String[] args) {
 
-        int i = 1;
-        System.out.println("int i is: " + i);
+        byte a  = 1;
+        System.out.println("byte a is: " + a);
 
-        // write your code below
+        short b  = 2;
+        System.out.println("short b is: " + b);
+
+        int c = 3;
+        System.out.println("int c is: " + c);
+
+        long d  = 4;
+        System.out.println("long d is: " + d);
+
+        float e  = 5;
+        System.out.println("float e is: " + e);
+
+        double f = 6;
+        System.out.println("double f is: " + f);
+
+        char g  = '@';
+        System.out.println("char g is: " + g);
+
+        boolean h = true;
+        System.out.println("boolean h is: " + h);
+
 
     }
 
