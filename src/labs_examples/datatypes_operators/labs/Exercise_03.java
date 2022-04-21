@@ -10,7 +10,20 @@ class ArithmeticOperators {
 
     public static void main(String[] args) {
 
-        // write your code below
+        int addition = 1 + 2;
+        System.out.println(addition);
+
+        int subtraction = 6 - 3;
+        System.out.println(subtraction);
+
+        int multiplication = 2 * 5;
+        System.out.println(multiplication);
+
+        int division = 4 /2;
+        System.out.println(division);
+
+        int modulus = 11 % 2;
+        System.out.println(modulus);
 
     }
 
