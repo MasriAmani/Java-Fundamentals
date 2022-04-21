@@ -16,7 +16,18 @@ public class Exercise_01 {
 
     public static void main(String[] args) {
 
-        // write code here
+        int intVal = 3356;
+        System.out.println(intVal);
+
+        double doubleVal = 100.345;
+        System.out.println(doubleVal);
+
+        float floatVal = 92.67f;
+        System.out.println(floatVal);
+
+        char charVal ='a';
+        System.out.println(charVal);
+
 
     }
 }
