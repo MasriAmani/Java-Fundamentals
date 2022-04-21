@@ -23,7 +23,11 @@ public class Exercise_07 {
         // assign input to variable as int
         int days = scanner.nextInt();
 
-        // write completed code here
+        System.out.println("This is equal to: " + toSeconds(days) + " seconds");
 
+    }
+
+    public static long toSeconds (int days){
+        return days * 86400;
     }
 }
