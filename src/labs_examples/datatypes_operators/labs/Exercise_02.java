@@ -23,7 +23,13 @@ public class Exercise_02 {
 
     public static void main(String[] args) {
 
-        // write code here
+        int x1 = 10;
+        double d1 = x1 ;
+        System.out.println(d1);
+
+        double d2 = 10.5;
+        int x2 = (int)d2;
+        System.out.println(x2); // In narrowing conversion we lose information, here we lost the decimal part of the number
 
     }
 }
