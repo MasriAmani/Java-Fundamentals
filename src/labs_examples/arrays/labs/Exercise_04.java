@@ -9,5 +9,21 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args) {
 
+
+        int [][] arrayIrr = {
+                {1,2,3},
+                {11,12,13,14,15},
+                {20,30,40,50}
+        };
+
+        for(int[] row : arrayIrr){
+            for(int val : row){
+                
+                System.out.print(val+" ");
+            }
+                System.out.println();
+        }
+    }
 }
