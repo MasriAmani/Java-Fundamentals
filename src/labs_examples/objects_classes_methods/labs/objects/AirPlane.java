@@ -42,14 +42,14 @@ public class AirPlane {
     @Override
     public String toString() {
         return "AirPlane{" +
-                "PlaneEngine=" + engine.toString() +
-                ", cockpit=" + cockpit.toString() +
-                ", wing=" + wing.toString() +
-                ", wheel=" + wheel.toString() +
-                ", fuelCapacity=" + fuelCapacity +
-                ", currentFuelLevel=" + currentFuelLevel +
-                ", model=" + model +
-                ", speed=" + speed +
+                "\n"+ engine.toString() +
+                "\n" + cockpit.toString() +
+                "\n" + wing.toString() +
+                "\n" + wheel.toString() +
+                "\nfuelCapacity= " + fuelCapacity +
+                "\ncurrentFuelLevel= " + currentFuelLevel +
+                "\nmodel= " + model +
+                "\nspeed= " + speed +
                 '}';
     }
 }
