@@ -3,8 +3,11 @@ package labs_examples.objects_classes_methods.labs.oop.A_inheritance;
 /**
  * Why does the output print in the order it does?
  *
- * You answer:
- *
+ * You answer: when we create instance "c" of class "C_1" we are calling its constructor
+ * and since class "C_1" extends class "B_1" the constructor of "C_1" will call first the default
+ * constructor of "B_1" before executing its body, similarly the constructor of "B_1" will call first the default
+ * constructor of "A_1" before executing its body, so the default constructor of "A_1" will be executed first then
+ * the default constructor of "B_1", then the default constructor of "C_1"
  */
 
 class A_1 {
