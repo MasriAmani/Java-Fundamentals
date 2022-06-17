@@ -1,7 +1,13 @@
 
 Without running the code below, please tell me what will print. Why?
 
+It will print:
 
+Parent called
+Child called
+
+Since the Child class extends Parent class, the constructor of the Child class will call at first the default
+constructor of the Parent class before executing its body.
 
 
 public class InheritanceTest
