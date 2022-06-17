@@ -1,6 +1,11 @@
 
 Without running the code below, please tell me what it will print.
 
+Answer:
+It will print "Child called"
+Here we are referring to the child class using Superclass (Parent) reference
+But, if the methods are present in Parent Class, but overridden by SubClass, like in the case here with the "doSomething()" method,
+it will be the overridden method that will be executed.
 
 
 public class InheritanceTest
